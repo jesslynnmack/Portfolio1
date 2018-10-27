@@ -1,0 +1,98 @@
+html {
+    scroll-behavior: smooth;
+}
+.nav-header {
+        font-size: 30px;
+        font-weight: 700;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        line-height: 50px;
+        margin-left: 10px;
+        margin-right:10px;
+        width:345px;
+        text-align:center;
+        margin-left:180px;
+}
+.nav-item {
+    border-left: 1px solid #efefef;
+    line-height: 18px;
+    color:#999;
+    font-size:18px;
+}
+.navbar {
+    box-shadow: 5px 10px 18px #888888;
+    margin-left: 10px;
+}
+
+ul .navlinks {
+    margin-top: 20px;
+}
+
+footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #fff;
+    color: #ccc;
+    text-align: center;
+    background: #666;
+    border-top: 8px solid #19946f;
+    height: 50px;
+    margin-top:150px;
+}
+.f1con {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-google {
+    position:fixed;
+    right:0%;
+    top:66%;
+    background: #3B5998;
+    color: white;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    position:fixed;
+    right:0%;
+    top:74%;
+    background: #0077B5;
+    color: white;
+}
+
+/* GitHub */
+.fa-github {
+    position:fixed;
+    right:0%;
+    top:82%;
+    background: #333;
+    color: white;
+}
+
+@media screen and (max-width:640px){
+.nav-header{
+    margin-left:0px;
+    width:100%;
+    color:white;
+    margin-right:0px;
+}
+
